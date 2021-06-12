@@ -1,0 +1,117 @@
+* {
+    color: white;
+}
+
+body {
+    background-color: #1E1E1E;
+    margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+p, a, li, tr, th, td {
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse
+}
+
+tr, th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr {
+    border-bottom: 3px solid #FFFF;
+}
+
+li {
+    margin-bottom: 20px;
+    line-height: 130%;
+}
+
+.true-body {
+    margin: 15px;
+}
+
+#nav {
+    background-color: #4f4f4f;
+}
+
+#nav > h2 {
+    color: #4FEDFF;
+}
+
+#nav > span > a {
+    color: #3AED69;
+}
+
+#nav > span > a:hover {
+    color: #99ffb4;
+}
+
+#footer > * {
+    margin: 0
+}
+
+.lesson-color {
+    color: #3AED69;
+}
+
+.assignment-color {
+    color: #FF6721;
+}
+
+.exam-color {
+    color: #F539A0
+}
+
+.arrange-horizontally > * {
+    display: inline-block;
+}
+.arrange-vertically > * {
+    display: block;
+}
+
+.center-vertically-justified {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-vertically {
+    display: flex;
+    align-items: center;
+}
+
+.justified {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-left-children > * {
+    margin-left: 40px;
+}
+
+.tab-left {
+    margin-left: 40px;
+}
+
+.tab-right {
+    margin-right: 40px;
+}
+
+.space-right {
+    margin-right: 10px;
+}
+
+.space-left {
+    margin-left: 10px;
+}

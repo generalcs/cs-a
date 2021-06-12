@@ -1,0 +1,13 @@
+#week-schedule-header > * {
+    color: #4FEDFF;
+}
+
+#week-schedule-week {
+    background: #4f4f4f;
+    border: none;
+}
+
+#week-schedule-week {
+    margin-bottom: 20px;
+    padding: 10px;
+}
