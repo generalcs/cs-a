@@ -1,0 +1,10 @@
+#exam-schedule-header > * {
+    color: #4FEDFF;
+}
+
+.exam-window-module {
+    background-color: #4f4f4f;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
