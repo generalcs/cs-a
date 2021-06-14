@@ -14,66 +14,69 @@
                 <img src="java.svg" class="space-left">
                 <h2>CS-A: Java Programming</h2>
             </span>
-            <span class="tab-left-children">
+            <span class="tab-left-children no-underline-children">
                 <a href="index.html">Home</a>
                 <a href="assignments.html">Assignments</a>
                 <a href="exams.html">Exams</a>
                 <a href="about.html" class="tab-right">About</a>
             </span>
         </header>
-        <div class="true-body">
-            <div class="arrange-horizontally center-vertically">
-                <p class="space-right">Current time in PT:</p>
-                <iframe src="https://free.timeanddate.com/clock/i7uh8eht/n234/fn17/fcff6721/tct/pct/ahl/ftb/ts1" frameborder="0" width="91" height="19" allowtransparency="true"></iframe>
+        <div id="true-body">
+            <div class="responsive-small">
+                <h1>CS-A Spring 2021</h1>
+                <div class="arrange-horizontally center-vertically">
+                    <p class="space-right">Current time in PT:</p>
+                    <iframe src="https://free.timeanddate.com/clock/i7uh8eht/n234/fn17/fcff6721/tct/pct/ahl/ftb/ts1" frameborder="0" width="91" height="19" allowtransparency="true"></iframe>
 
-            </div>
-            <div class="arrange-horizontally justified responsive-small">
+                </div>
+                <div class="arrange-horizontally justified">
+                    <div>
+                        <h2>Announcements</h2>
+                        <ul>
+                            <li><b>June 12th, 2021:</b> The Week 4 exam has been released on the <a href="exams.html" class="exam-color">exams page</a>. The code for the exam is <b>controlLoop</b>.</li>
+                            <li>
+                                <b>June 11th, 2021:</b> Instead of producing a video for the Week 4 lesson for asynchronous viewing, I will be pushing it back to this Sunday and compressing two weeks into one week later in the class. Do not fear that the compressed week will feel too fast; the concepts of those weeks can be learned quickly and only need to be consolidated over time.<br><br>Assignment 3 grades will be released soon through Discord PM. The Week 4 exam will be taken using the Green Pamphlet software, and the file for the exam will be made available on the exams tab tomorrow at 8:00 PM PT.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
                 <div>
-                    <h2>Announcements</h2>
-                    <ul>
-                        <li><b>June 12th, 2021:</b> The Week 4 exam has been released on the <a style="text-decoration: underline;" href="exams.html" class="exam-color">exams page</a>. The code for the exam is <b>controlLoop</b>.</li>
-                        <li>
-                            <b>June 11th, 2021:</b> Instead of producing a video for the Week 4 lesson for asynchronous viewing, I will be pushing it back to this Sunday and compressing two weeks into one week later in the class. Do not fear that the compressed week will feel too fast; the concepts of those weeks can be learned quickly and only need to be consolidated over time.<br><br>Assignment 3 grades will be released soon through Discord PM. The Week 4 exam will be taken using the Green Pamphlet software, and the file for the exam will be made available on the exams tab tomorrow at 8:00 PM PT.
-                        </li>
-                    </ul>
+                    <h2>Current Week Schedule</h2>
+                    <p id="week-schedule-week">Week 4</p>
+                    <table>
+                        <colgroup>
+                           <col span="1" style="width: 20%;">
+                           <col span="1" style="width: 30%;">
+                           <col span="1" style="width: 50%;">
+                        </colgroup>
+                        <tr>
+                            <th>Event</th>
+                            <th>Date</th>
+                            <th>Details</th>
+                        </tr>
+                        <tr>
+                            <td><a href="exams.html" class="exam-color">Week 4 Exam</a></td>
+                            <td>Saturday, June 12th 8:00 PM to<br>Tuesday, June 15th 8:00 PM PT</td>
+                            <td>Covers material from the first three weeks, which includes working with variables and simple control flow, Scanners and user input, and functions. </td>
+                        </tr>
+                        <tr>
+                            <td><span class="lesson-color">Lecture 4</span></td>
+                            <td>Sunday, June 13th 8:00 PM PT</td>
+                            <td>Topic: Classes and Objects. Hosted on the CS-A Discord server.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="assignment-color">Assign 4</span></td>
+                            <td>Released Monday, June 14th<br>Due Saturday, June 19th 8:00 PM PT</td>
+                            <td>Task Manager: Classes and Objects. Ask questions or clarifications inside the Discord server.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div>
+                    <h2>Give Feedback</h2>
+                    <iframe id="feedback-form" src="https://docs.google.com/forms/d/e/1FAIpQLSffqjfSlcjlg6Yjf1EEtPPygyQmfehOPbDhxNcn0RGqE7yzRg/viewform?embedded=true" height="650px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
             </div>
-            <div style="margin-top: 40px" class="responsive-small">
-                <h2>Current Week Schedule</h2>
-                <p id="week-schedule-week">Week 4</p>
-                <table>
-                    <colgroup>
-                       <col span="1" style="width: 20%;">
-                       <col span="1" style="width: 30%;">
-                       <col span="1" style="width: 50%;">
-                    </colgroup>
-                    <tr id="week-schedule-header">
-                        <th>Event</th>
-                        <th>Date</th>
-                        <th>Details</th>
-                    </tr>
-                    <tr>
-                        <td><a style="text-decoration: underline;" href="exams.html" class="exam-color">Week 4 Exam</a></td>
-                        <td>Saturday, June 12th 8:00 PM to<br>Tuesday, June 15th 8:00 PM PT</td>
-                        <td>Covers material from the first three weeks, which includes working with variables and simple control flow, Scanners and user input, and functions. </td>
-                    </tr>
-                    <tr>
-                        <td><span class="lesson-color">Lecture 4</span></td>
-                        <td>Sunday, June 13th 8:00 PM PT</td>
-                        <td>Topic: Classes and Objects. Hosted on the CS-A Discord server.</td>
-                    </tr>
-                    <tr>
-                        <td><span class="assignment-color">Assign 4</span></td>
-                        <td>Released Monday, June 14th<br>Due Saturday, June 19th 8:00 PM PT</td>
-                        <td>Task Manager: Classes and Objects. Ask questions or clarifications inside the Discord server.</td>
-                    </tr>
-                </table>
-            </div>
-            <div style="margin-top: 70px">
-                <h2>Give Feedback</h2>
-                <iframe id="feedback-form" src="https://docs.google.com/forms/d/e/1FAIpQLSffqjfSlcjlg6Yjf1EEtPPygyQmfehOPbDhxNcn0RGqE7yzRg/viewform?embedded=true" height="650px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            </div>
-            <div id="footer" style="text-align: center">
+            <div id="footer">
                 <p>Copyright © 2021 Samuel Do</p>
                 <a href="https://icons8.com/icon/13679/java">Java icon by Icons8</a>
             </div>

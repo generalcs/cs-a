@@ -1,56 +1,18 @@
-* {
-    color: white;
-}
-
-body {
-    background-color: #1E1E1E;
-    margin: 0px;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat", sans-serif;
-}
-
-p, a, li, tr, th, td {
-    font-family: "Raleway", sans-serif;
-}
-
-table {
-    border-collapse: collapse
-}
-
-tr, th, td {
-    text-align: left;
-    padding: 10px;
-}
-
-th {
-    color: #4FEDFF;
-}
-
-tr {
-    border-bottom: 3px solid #FFFF;
-}
-
-li {
-    margin-bottom: 20px;
-    line-height: 130%;
-}
-
-#true-body {
-    margin: 15px;
-}
-
 #nav {
     background-color: #4f4f4f;
 }
 
 #nav > span > a {
     color: #3AED69;
+    text-decoration: none;
 }
 
 #nav > span > a:hover {
     color: #99ffb4;
+}
+
+#true-body {
+    margin: 15px;
 }
 
 #footer {
@@ -59,18 +21,7 @@ li {
 
 #footer > * {
     margin: 0;
-}
-
-.lesson-color {
-    color: #3AED69;
-}
-
-.assignment-color {
-    color: #FF6721;
-}
-
-.exam-color {
-    color: #F539A0;
+    color: white;
 }
 
 .arrange-horizontally > * {
@@ -118,16 +69,4 @@ li {
 
 .no-underline-children > * {
     text-decoration: none
-}
-
-@media only screen and (min-width: 1200px) {
-    .responsive-small {
-        width: 70%
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .responsive-small {
-        width: 100%;
-    }
 }
