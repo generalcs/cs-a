@@ -1,11 +1,5 @@
-#week-schedule-week {
-    background: #4f4f4f;
-    border: none;
-}
-
-#week-schedule-week {
+table {
     margin-bottom: 20px;
-    padding: 10px;
 }
 
 @media only screen and (min-width: 800px) {
