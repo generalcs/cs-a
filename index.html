@@ -13,7 +13,7 @@
         <header id="nav" class="arrange-horizontally center-vertically-justified">
             <span class="arrange-horizontally center-vertically">
                 <img src="java.svg" class="space-left">
-                <h2>CS-A: Java Programming</h2>
+                <h2 id="nav-header">CS-A: Java Programming</h2>
             </span>
             <span class="tab-left-children no-underline-children">
                 <a href="index.html">Home</a>
@@ -22,32 +22,31 @@
                 <a href="about.html" class="tab-right">About</a>
             </span>
         </header>
-        <div id="true-body">
-            <div class="responsive-small">
-                <h1>CS-A Spring 2021</h1>
-                <div class="arrange-horizontally center-vertically">
-                    <p class="space-right">Current time in PT:</p>
-                    <iframe src="https://free.timeanddate.com/clock/i7uh8eht/n234/fn17/fcff6721/tct/pct/ahl/ftb/ts1" frameborder="0" width="91" height="19" allowtransparency="true"></iframe>
-
-                </div>
-                <div class="arrange-horizontally justified">
-                    <div>
+        <div class="content">
+            <h1>CS-A Spring 2021</h1>
+            <iframe src="https://free.timeanddate.com/clock/i7uh8eht/n234/fn17/fcfff/tct/pct/ahl/ftb/tt0/tw0/tm1/ts1/ta1/tb2" frameborder="0" width="270" height="19" allowtransparency="true"></iframe>
+            <div class="side-by-side" id="announcements-schedule">
+                <div class="bubble-module" id="announcements">
+                    <div id="announcements-header">
                         <h2>Announcements</h2>
-                        <ul>
-                            <li><b>July 21st, 2021:</b> The Green Pamphlet software has been updated to version 1.11. If you are still using version 1.0 or 1.1, please update your software by deleting the old version and downloading the latest version on the <a class="exam-color" href="gp-updates.html">Green Pamphlet downloads page.</a></li>
-                            <li><b>July 19th, 2021:</b> The CS-A Final Project is live on the <a class="assignment-color" href="assignments.html">assignments page!</a></li>
-                        </ul>
-                        <a class="lesson-color" href="announcements.html">See past announcements</a>
+                        <a href="announcements.html">View past announcements</a>
                     </div>
+                    <ul>
+                        <li><b>July 21st, 2021:</b> The Green Pamphlet software has been updated to version 1.11. If you are still using version 1.0 or 1.1, please update your software by deleting the old version and downloading the latest version on the Green Pamphlet <a href="gp-updates.html">downloads</a> page.</li>
+                        <li><b>July 19th, 2021:</b> The CS-A Final Project is live on the <a href="assignments.html">assignments</a> page!</li>
+                    </ul>
                 </div>
-                <div>
-                    <h2>Final Project Schedule</h2>
-                    <p id="week-schedule-week">Final Project</p>
-                    <table>
+                <div class="bubble-module" id="schedule">
+                    <div id="schedule-header">
+                        <h2>Final Project Schedule</h2>
+                        <a href="schedule.html">View full schedule</a>
+                    </div>
+                    <p class="week-schedule-week">Final Project</p>
+                    <table id="schedule-table">
                         <colgroup>
-                           <col span="1" style="width: 20%;">
                            <col span="1" style="width: 30%;">
-                           <col span="1" style="width: 50%;">
+                           <col span="1" style="width: 30%;">
+                           <col span="1" style="width: 40%;">
                         </colgroup>
                         <tr>
                             <th>Event</th>
@@ -55,27 +54,26 @@
                             <th>Details</th>
                         </tr>
                         <tr>
-                            <td><span class="exam-color">Proposal</span></td>
+                            <td>Proposal</td>
                             <td>Week 1</td>
-                            <td>Proposal link: <a class="lesson-color" href="https://forms.gle/d82JxReABAMU3ucDA">https://forms.gle/d82JxReABAMU3ucDA</a></td>
+                            <td><a href="https://forms.gle/d82JxReABAMU3ucDA">Proposal Link</a></td>
                         </tr>
                         <tr>
-                            <td><span class="exam-color">Meetings</span></td>
+                            <td>Meetings</td>
                             <td>Week 2</td>
                             <td>Required one-on-one meetings discussing project progress will take place during the second week of the project.</td>
                         </tr>
                         <tr>
-                            <td><span class="exam-color">Submission</span></td>
+                            <td>Submission</td>
                             <td>Week 3</td>
-                            <td>Please refer to the <a class="lesson-color" href="final-project.html">final project specifications</a> for details about submission.</td>
+                            <td>Please refer to the <a href="final-project.html">final project specifications</a> for details about submission.</td>
                         </tr>
                     </table>
-                    <a class="lesson-color" href="schedule.html">See full schedule</a>
                 </div>
-                <div>
-                    <h2>Give Feedback</h2>
-                    <iframe id="feedback-form" src="https://docs.google.com/forms/d/e/1FAIpQLSffqjfSlcjlg6Yjf1EEtPPygyQmfehOPbDhxNcn0RGqE7yzRg/viewform?embedded=true" height="650px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                </div>
+            </div>
+            <div class="bubble-module">
+                <h2>Feedback or Report</h2>
+                <p>Please use this <a href="https://forms.gle/CoLtHvPRzHDNyGhN6">form</a> to give feedback or report something.</p>
             </div>
             <div id="footer">
                 <p>Copyright © 2021 Samuel Do</p>

@@ -1,6 +1,8 @@
-#week-schedule-week {
+.week-schedule-week {
     background: #4f4f4f;
     border: none;
-    margin-bottom: 20px;
+    box-sizing: border-box;
+    width: 100%;
     padding: 10px;
+    border-radius: 8px;
 }
