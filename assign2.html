@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSAlpha Assign 2</title>
+        <link rel="stylesheet" href="general.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="java.svg" type="image/x-icon"/>
+    </head>
+    <body>
+        <header id="nav" class="arrange-horizontally center-vertically-justified">
+            <span class="arrange-horizontally center-vertically">
+                <img src="java.svg" class="space-left">
+                <h2 id="nav-header">CSAlpha: Java Programming</h2>
+            </span>
+            <span class="tab-left-children no-underline-children">
+                <a href="index.html">Home</a>
+                <a href="assignments.html">Assignments</a>
+                <a href="exams.html">Exams</a>
+                <a href="about.html" class="tab-right">About</a>
+            </span>
+        </header>
+        <div class="content">
+            <div style="overflow: auto; resize: both">
+                <iframe src="assign2-doc.html" id="assignment-frame" style="width:100%" scrolling="no" frameBorder="0"></iframe>
+                <script>
+                    var iframe = document.getElementById("assignment-frame");
+                    iframe.onload = function(){
+                        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+                    }
+                    window.onresize = function() {
+                        iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
+                    }
+                </script>
+            </div>
+            <div id="footer" style="margin-top: 30px">
+                <p>Copyright © 2021 Samuel Do</p>
+                <a href="https://icons8.com/icon/13679/java">Java icon by Icons8</a>
+            </div>
+        </div>
+    </body>
+</html>
