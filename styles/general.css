@@ -21,14 +21,18 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #F34236;
     font-family: "Montserrat", sans-serif;
     padding: 0px;
     margin: 5px 0 5px 0;
 }
 
-h2, h3, h4 {
+h2, h3, h4, h5, h6 {
+    color: #3caefa;
     margin-top: 20px;
+}
+
+h1 {
+    color: #F34236;
 }
 
 .white {
